@@ -16,7 +16,7 @@ const projects = [
   },
   {
     id: '02',
-    title: 'Local Service Booking Platform',
+    title: 'Local Pro',
     category: 'Service Marketplace',
     year: '2025',
     tags: ['MongoDB', 'Express', 'React', 'Node.js'],
@@ -55,7 +55,7 @@ export default function Projects() {
             <div className="w-6 h-px bg-[#e8ff47]" />
 
             <span className="text-[16px] font-mono tracking-[0.3em] uppercase text-[#e8ff47]">
-               Things I've built
+              Things I've built
             </span>
           </div>
 
@@ -69,7 +69,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group relative overflow-hidden rounded-3xl border border-[#1e1e1e] bg-[#0f0f0f] transition-all duration-500 hover:-translate-y-3 hover:border-[#333]"
+              className="group flex flex-col h-full relative overflow-hidden rounded-3xl border border-[#1e1e1e] bg-[#0f0f0f] transition-all duration-500 hover:-translate-y-3 hover:border-[#333]"
             >
               {/* Glow */}
               <div
@@ -102,7 +102,7 @@ export default function Projects() {
               </div>
 
               {/* Content */}
-              <div className="relative p-6">
+              <div className="relative p-6 flex flex-col flex-grow">
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <h3 className="text-2xl font-semibold text-white mb-1">
@@ -137,7 +137,7 @@ export default function Projects() {
                   </div>
                 </div>
 
-                <p className="text-sm leading-relaxed text-zinc-400 mb-6">
+                <p className="text-sm leading-relaxed text-zinc-400 mb-6 flex-grow">
                   {project.description}
                 </p>
 
