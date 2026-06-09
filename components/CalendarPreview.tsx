@@ -31,7 +31,7 @@ export default function CalendarPreview() {
               labels={{
                 totalCount: '{{count}} contributions in {{year}}',
               }}
-              renderBlock={(block: React.ReactElement, activity: Activity) => {
+              renderBlock={(block: any, activity: any) => {
                 const { x, y, width, height, ...restProps } = block.props;
                 const nx = Number(x);
                 const ny = Number(y);
