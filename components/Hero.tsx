@@ -95,21 +95,21 @@ export default function Hero() {
                 View Projects
               </a>
 
-             <a
-  href="/Karan_Resume.pdf"
-  download
-  className="px-6 py-3 border border-[#333] text-white text-xs font-mono tracking-widest uppercase rounded-full hover:border-white transition-all duration-300"
->
-  Resume
-</a>
+              <a
+                href="/Karan_Resume.pdf"
+                download
+                className="px-6 py-3 border border-[#333] text-white text-xs font-mono tracking-widest uppercase rounded-full hover:border-white transition-all duration-300"
+              >
+                Resume
+              </a>
             </div>
 
-          
+
           </div>
-
-            <div className='-translate-y-0 '>
-              <img className='rounded-lg'  src='/profile.jpeg' />
-            </div>
+          {/*image section */}
+          <div className='-translate-y-16 '>
+            <img className='rounded-lg' src='/profile1.png' />
+          </div>
 
         </div>
       </div>
