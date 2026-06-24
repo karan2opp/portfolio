@@ -7,7 +7,7 @@ export const projectsData = [
     tags: ['Next.js', 'React.js', 'TypeScript', 'Node.js', 'Express.js', 'PostgreSQL', 'Drizzle ORM', 'OpenAI API'],
     description: 'A comprehensive AI-powered assessment platform featuring automatic grading and a multi-tenant architecture.',
     image: '/ai_mock_exam.png',
-    github: '#',
+    github: 'https://github.com/karan2opp/Abhyas',
     live: 'https://abyaas.karanop.in',
     color: '#47a1ff',
     bullets: [
@@ -26,7 +26,7 @@ export const projectsData = [
     tags: ['Next.js', 'Node.js', 'OpenAI', 'Corsair SDK', 'PostgreSQL', 'Razorpay'],
     description: 'An AI workspace that acts as an autonomous assistant for email drafting and calendar scheduling natively.',
     image: '/ginnie_ai.png',
-    github: '#',
+    github: 'https://github.com/karan2opp/Ginnie',
     live: 'https://ginnieai.karanop.in',
     color: '#ffb847',
     bullets: [
@@ -44,7 +44,7 @@ export const projectsData = [
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Zustand', 'Razorpay', 'Cloudinary', 'Resend'],
     description: 'A modern full-stack e-commerce application with secure checkout, automated emails, and review management.',
     image: '/Alhnkar.png',
-    github: 'https://github.com/yourusername/alhnkar',
+    github: 'https://github.com/karan2opp/Alhnkar',
     live: 'https://alhnkar.karanop.in',
     color: '#e8ff47',
     bullets: [
