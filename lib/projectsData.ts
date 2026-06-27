@@ -1,14 +1,14 @@
 export const projectsData = [
   {
     id: 'abhyas',
-    title: 'Abhyas – AI-Powered Mock Exam Platform',
+    title: 'Abhyas – AI-Powered Exam Platform',
     category: 'SaaS Platform',
     year: '2026',
     tags: ['Next.js', 'React.js', 'TypeScript', 'Node.js', 'Express.js', 'PostgreSQL', 'Drizzle ORM', 'OpenAI API'],
     description: 'A comprehensive AI-powered assessment platform featuring automatic grading and a multi-tenant architecture.',
     image: '/ai_mock_exam.png',
     github: 'https://github.com/karan2opp/Abhyas',
-    live: 'https://abyaas.karanop.in',
+    live: 'https://abhyas.karanop.in',
     color: '#47a1ff',
     bullets: [
       'Architected and developed a full-stack assessment platform from scratch, successfully onboarding and actively serving 20+ real users.',
