@@ -96,7 +96,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="/Karan_Resume.pdf"
+                href="/karan_reume.pdf"
                 download
                 className="px-6 py-3 border border-[#333] text-white text-xs font-mono tracking-widest uppercase rounded-full hover:border-white transition-all duration-300"
               >
