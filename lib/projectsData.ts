@@ -1,5 +1,24 @@
 export const projectsData = [
   {
+    id: 'smartbin',
+    title: 'SmartBin – Crowd-Mapped Public Dustbin Finder',
+    category: 'Civic Tech · Hackathon',
+    year: '2026',
+    tags: ['Node.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'Drizzle ORM', 'AWS', 'Amazon Cognito', 'Amazon S3', 'OpenAI API', 'Zod'],
+    description: 'A crowd-mapped directory of public dustbins in Indian cities, with AI-verified photo submissions and an admin dashboard. Submitted to the WeMakeDevs × AWS Environmental Hacks.',
+    image: '/smartbin.svg',
+    github: 'https://github.com/Dhirenderchoudhary/Smartbin',
+    live: 'https://l60qdgkh8a.execute-api.ap-south-1.amazonaws.com',
+    color: '#47ff9a',
+    bullets: [
+      'Led a team of 3 to build and submit SmartBin to the WeMakeDevs × AWS Environmental Hacks (Waste & Energy track), and owned the backend: an Express/TypeScript REST API (/v1/*) on AWS EC2 behind API Gateway, backed by PostgreSQL on Amazon RDS with Drizzle ORM and Zod request validation.',
+      'Implemented authentication with Amazon Cognito (JWT verification via aws-jwt-verify) and a direct-to-S3 photo pipeline using short-lived presigned URLs, so images never pass through the API server.',
+      'Designed a nine-layer anti-fake defense enforced on the API: live-camera-only uploads, file-type and byte-level image validation, photo ownership checks, a 15 m duplicate radius, monthly per-user limits, and missing-bin reports only within 20 m. Passes 15/15 automated anti-fake checks.',
+      'Added an AI photo check with the OpenAI vision API that separates real public bins from fakes, with a provider switch to Amazon Bedrock. On a 20-photo hand-labelled evaluation it blocked 12/12 fakes and accepted 6/6 clear bins (95% accuracy, ~1.2 s per photo).',
+      'Deployed to AWS with secrets in Systems Manager Parameter Store and an IAM role instead of access keys, plus OpenStreetMap fallbacks if Amazon Location Service is unavailable.'
+    ]
+  },
+  {
     id: 'abhyas',
     title: 'Abhyas – AI-Powered Exam Platform',
     category: 'SaaS Platform',

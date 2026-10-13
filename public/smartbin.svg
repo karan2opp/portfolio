@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0f0f0f"/>
+  <g stroke="#1e1e1e" stroke-width="1">
+    <path d="M0 120H1280M0 240H1280M0 360H1280M0 480H1280M0 600H1280"/>
+    <path d="M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720M1120 0V720"/>
+  </g>
+  <g fill="#47ff9a">
+    <circle cx="300" cy="260" r="10"/><circle cx="520" cy="420" r="10"/>
+    <circle cx="760" cy="200" r="10"/><circle cx="900" cy="470" r="10"/>
+    <circle cx="1020" cy="300" r="10"/>
+  </g>
+  <g fill="none" stroke="#47ff9a" stroke-opacity=".35" stroke-width="2">
+    <circle cx="300" cy="260" r="26"/><circle cx="520" cy="420" r="26"/>
+    <circle cx="760" cy="200" r="26"/><circle cx="900" cy="470" r="26"/>
+    <circle cx="1020" cy="300" r="26"/>
+  </g>
+  <g transform="translate(640 330)">
+    <rect x="-70" y="-60" width="140" height="150" rx="14" fill="#161616" stroke="#47ff9a" stroke-width="4"/>
+    <rect x="-86" y="-86" width="172" height="28" rx="8" fill="#47ff9a"/>
+    <rect x="-18" y="-100" width="36" height="16" rx="6" fill="#47ff9a"/>
+    <path d="M-30 -30V70M0 -30V70M30 -30V70" stroke="#47ff9a" stroke-opacity=".5" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="640" y="520" text-anchor="middle" font-family="monospace" font-size="64" font-weight="700" fill="#ffffff">SmartBin</text>
+  <text x="640" y="570" text-anchor="middle" font-family="monospace" font-size="24" fill="#a1a1aa">Crowd-mapped public dustbins · AI-verified · AWS</text>
+</svg>
